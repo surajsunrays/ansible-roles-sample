@@ -1,0 +1,12 @@
+#filename: apache-install.yml
+#This playbook install apache using ansible-roles
+- 
+  name: apache-install.yml
+  hosts: localhost
+  roles:
+    #Role for checking the Java Installation
+    - java-check
+    #Role for Installing the httpd package
+    - install-apache
+    #Role for Starting the server
+    - start-apache

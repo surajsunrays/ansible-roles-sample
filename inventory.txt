@@ -1,0 +1,1 @@
+localhost ansible_host=172.16.16.182 ansible_connection=ssh ansible_user=zadmin ansible_ssh_pass=sunrays8695

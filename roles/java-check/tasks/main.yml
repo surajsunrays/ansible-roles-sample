@@ -1,0 +1,21 @@
+---
+# tasks file for java-check
+#  - shell: 
+#      java -version >> output
+#    register:
+#      output
+
+#  - debug:
+#      msg: 
+#        "checking java {{ output }}"
+
+- name: Check if Java is Installed  
+  shell: 'java -version'
+  become_user: sudo
+  changed_when: False
+  register:
+    java_result
+  ignore_errors: True
+  
+- debug:
+    msg: "{{ java_result }}"

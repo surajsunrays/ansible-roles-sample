@@ -1,7 +1,7 @@
 galaxy_info:
-  author: Suraj Ashok Bodade
-  description: This ansible role can be used to check the java installation on any system.
-  company: your company (optional)
+  author: "Suraj Ashok Bodade"
+  description: "This ansible role can be used to check the java installation on any system."
+  company: "zemosolabs"
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value

@@ -36,7 +36,7 @@ galaxy_info:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
   platforms:
-  # - name: Fedora
+    - name: Fedora
   #  versions:
     - all
   #   - 25

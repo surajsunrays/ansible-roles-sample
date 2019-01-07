@@ -1,6 +1,6 @@
 galaxy_info:
-  author: your name
-  description: your description
+  author: Suraj Ashok Bodade
+  description: This ansible role can be used to check the java installation on any system.
   company: your company (optional)
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -35,14 +35,14 @@ galaxy_info:
   # To view available platforms and versions (or releases), visit:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
-  # platforms:
+  platforms:
   # - name: Fedora
   #   versions:
-  #   - all
+    - all
   #   - 25
   # - name: SomePlatform
   #   versions:
-  #   - all
+    - all
   #   - 1.0
   #   - 7
   #   - 99.99
